@@ -15,6 +15,7 @@
 		95849DDA2999CA5F0039E7FB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DD92999CA5F0039E7FB /* Message.swift */; };
 		95849DDC2999CAF20039E7FB /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DDB2999CAF20039E7FB /* MessageBubble.swift */; };
 		95849DDE2999CFB70039E7FB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DDD2999CFB70039E7FB /* Extensions.swift */; };
+		95849DE02999D8170039E7FB /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DDF2999D8170039E7FB /* MessageField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		95849DD92999CA5F0039E7FB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		95849DDB2999CAF20039E7FB /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		95849DDD2999CFB70039E7FB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		95849DDF2999D8170039E7FB /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				95849DD62999BD280039E7FB /* TitleRow.swift */,
 				95849DDB2999CAF20039E7FB /* MessageBubble.swift */,
+				95849DDF2999D8170039E7FB /* MessageField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				95849DCA2999B6CA0039E7FB /* ContentView.swift in Sources */,
 				95849DDE2999CFB70039E7FB /* Extensions.swift in Sources */,
 				95849DDA2999CA5F0039E7FB /* Message.swift in Sources */,
+				95849DE02999D8170039E7FB /* MessageField.swift in Sources */,
 				95849DDC2999CAF20039E7FB /* MessageBubble.swift in Sources */,
 				95849DC82999B6CA0039E7FB /* chatAppWithSwiftUIApp.swift in Sources */,
 				95849DD72999BD280039E7FB /* TitleRow.swift in Sources */,
