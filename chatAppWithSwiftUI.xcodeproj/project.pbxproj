@@ -11,6 +11,10 @@
 		95849DCA2999B6CA0039E7FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DC92999B6CA0039E7FB /* ContentView.swift */; };
 		95849DCC2999B6CC0039E7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95849DCB2999B6CC0039E7FB /* Assets.xcassets */; };
 		95849DCF2999B6CC0039E7FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95849DCE2999B6CC0039E7FB /* Preview Assets.xcassets */; };
+		95849DD72999BD280039E7FB /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DD62999BD280039E7FB /* TitleRow.swift */; };
+		95849DDA2999CA5F0039E7FB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DD92999CA5F0039E7FB /* Message.swift */; };
+		95849DDC2999CAF20039E7FB /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DDB2999CAF20039E7FB /* MessageBubble.swift */; };
+		95849DDE2999CFB70039E7FB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DDD2999CFB70039E7FB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		95849DC92999B6CA0039E7FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95849DCB2999B6CC0039E7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95849DCE2999B6CC0039E7FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95849DD62999BD280039E7FB /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		95849DD92999CA5F0039E7FB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		95849DDB2999CAF20039E7FB /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		95849DDD2999CFB70039E7FB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,11 @@
 			children = (
 				95849DC72999B6CA0039E7FB /* chatAppWithSwiftUIApp.swift */,
 				95849DC92999B6CA0039E7FB /* ContentView.swift */,
+				95849DD82999CA440039E7FB /* Models */,
+				95849DD52999BD0B0039E7FB /* Components */,
 				95849DCB2999B6CC0039E7FB /* Assets.xcassets */,
 				95849DCD2999B6CC0039E7FB /* Preview Content */,
+				95849DDD2999CFB70039E7FB /* Extensions.swift */,
 			);
 			path = chatAppWithSwiftUI;
 			sourceTree = "<group>";
@@ -65,6 +76,23 @@
 				95849DCE2999B6CC0039E7FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95849DD52999BD0B0039E7FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				95849DD62999BD280039E7FB /* TitleRow.swift */,
+				95849DDB2999CAF20039E7FB /* MessageBubble.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		95849DD82999CA440039E7FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95849DD92999CA5F0039E7FB /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				95849DCA2999B6CA0039E7FB /* ContentView.swift in Sources */,
+				95849DDE2999CFB70039E7FB /* Extensions.swift in Sources */,
+				95849DDA2999CA5F0039E7FB /* Message.swift in Sources */,
+				95849DDC2999CAF20039E7FB /* MessageBubble.swift in Sources */,
 				95849DC82999B6CA0039E7FB /* chatAppWithSwiftUIApp.swift in Sources */,
+				95849DD72999BD280039E7FB /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
