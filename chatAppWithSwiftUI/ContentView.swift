@@ -28,6 +28,7 @@ struct ContentView: View {
             .background(Color("Peach"))
             
             MessageField()
+                .environmentObject(messagesManager)
         }
         
     }
