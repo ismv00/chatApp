@@ -10,6 +10,7 @@
 		9555566F299B269E0023D667 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9555566E299B269E0023D667 /* GoogleService-Info.plist */; };
 		95555672299B277D0023D667 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 95555671299B277D0023D667 /* FirebaseFirestore */; };
 		95555674299B277D0023D667 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 95555673299B277D0023D667 /* FirebaseFirestoreSwift */; };
+		95555676299B2C340023D667 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555675299B2C340023D667 /* MessageManager.swift */; };
 		95849DC82999B6CA0039E7FB /* chatAppWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DC72999B6CA0039E7FB /* chatAppWithSwiftUIApp.swift */; };
 		95849DCA2999B6CA0039E7FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95849DC92999B6CA0039E7FB /* ContentView.swift */; };
 		95849DCC2999B6CC0039E7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95849DCB2999B6CC0039E7FB /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		9555566E299B269E0023D667 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95555675299B2C340023D667 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
 		95849DC42999B6CA0039E7FB /* chatAppWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatAppWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95849DC72999B6CA0039E7FB /* chatAppWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatAppWithSwiftUIApp.swift; sourceTree = "<group>"; };
 		95849DC92999B6CA0039E7FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				95849DCB2999B6CC0039E7FB /* Assets.xcassets */,
 				95849DCD2999B6CC0039E7FB /* Preview Content */,
 				95849DDD2999CFB70039E7FB /* Extensions.swift */,
+				95555675299B2C340023D667 /* MessageManager.swift */,
 			);
 			path = chatAppWithSwiftUI;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				95849DDC2999CAF20039E7FB /* MessageBubble.swift in Sources */,
 				95849DC82999B6CA0039E7FB /* chatAppWithSwiftUIApp.swift in Sources */,
 				95849DD72999BD280039E7FB /* TitleRow.swift in Sources */,
+				95555676299B2C340023D667 /* MessageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
